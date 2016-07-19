@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">
+        Cribbage Counter
+    </string>
+
+    <string name="FacePrompt">
+        Value
+    </string>
+
+    <string name="SuitPrompt">
+        Suit
+    </string>
+
+    <string name="HandLabel">
+        Hand
+    </string>
+
+    <string name="CutLabel">
+        Cut
+    </string>
+
+    <string name="ButtonText">
+        Calculate Score
+    </string>
+
+    <string-array name="FaceValueStrings">
+        <item>A</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>J</item>
+        <item>Q</item>
+        <item>K</item>
+    </string-array>
+
+    <string-array name="SuitStrings">
+        <item>Hearts</item>
+        <item>Diamonds</item>
+        <item>Clubs</item>
+        <item>Spades</item>
+    </string-array>
+
+    <string name="FaceValueOOB">
+        Face value out of bounds!
+    </string>
+
+    <string name="SuitOOB">
+        Suit out of bounds!
+    </string>
+
+    <string name="ScoreFifteens">
+        Points from fifteens:
+    </string>
+
+    <string name="ScorePairs">
+        Points from pairs:
+    </string>
+
+    <string name="ScoreRuns">
+        Points from runs:
+    </string>
+
+    <string name="ScoreFlush">
+        Points from flush:
+    </string>
+
+    <string name="ScoreKnobs">
+        Points from knobs:
+    </string>
+
+    <string name="ScoreTotal">
+        Total points:
+    </string>
+
+    <string name="ScoreMessageName">
+        Scores
+    </string>
+</resources>
