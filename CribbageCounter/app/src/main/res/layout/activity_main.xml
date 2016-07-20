@@ -43,10 +43,10 @@
                 android:layout_weight="1"
                 android:entries="@array/FaceValueStrings"
                 android:spinnerMode="dropdown"
-                android:backgroundTint="#616161"
                 android:backgroundTintMode="screen"
                 android:theme="@style/AppTheme"
-                android:paddingBottom="20dip" />
+                android:paddingBottom="20dip"
+                android:background="@drawable/z_spinner_background" />
 
             <Spinner
                 android:layout_width="wrap_content"
@@ -55,10 +55,10 @@
                 android:layout_weight="1"
                 android:entries="@array/SuitStrings"
                 android:spinnerMode="dropdown"
-                android:backgroundTint="#616161"
                 android:backgroundTintMode="screen"
                 android:theme="@style/AppTheme"
-                android:paddingBottom="20dip" />
+                android:paddingBottom="20dip"
+                android:background="@drawable/z_spinner_background" />
         </LinearLayout>
 
         <LinearLayout
@@ -74,10 +74,10 @@
                 android:layout_weight="1"
                 android:entries="@array/FaceValueStrings"
                 android:spinnerMode="dropdown"
-                android:backgroundTint="#616161"
                 android:backgroundTintMode="screen"
                 android:theme="@style/AppTheme"
-                android:paddingBottom="20dip" />
+                android:paddingBottom="20dip"
+                android:background="@drawable/z_spinner_background" />
 
             <Spinner
                 android:layout_width="wrap_content"
@@ -86,10 +86,10 @@
                 android:layout_weight="1"
                 android:entries="@array/SuitStrings"
                 android:spinnerMode="dropdown"
-                android:backgroundTint="#616161"
                 android:backgroundTintMode="screen"
                 android:theme="@style/AppTheme"
-                android:paddingBottom="20dip" />
+                android:paddingBottom="20dip"
+                android:background="@drawable/z_spinner_background" />
         </LinearLayout>
 
         <LinearLayout
@@ -105,10 +105,10 @@
                 android:layout_weight="1"
                 android:entries="@array/FaceValueStrings"
                 android:spinnerMode="dropdown"
-                android:backgroundTint="#616161"
                 android:backgroundTintMode="screen"
                 android:theme="@style/AppTheme"
-                android:paddingBottom="20dip" />
+                android:paddingBottom="20dip"
+                android:background="@drawable/z_spinner_background" />
 
             <Spinner
                 android:layout_width="wrap_content"
@@ -117,10 +117,10 @@
                 android:layout_weight="1"
                 android:entries="@array/SuitStrings"
                 android:spinnerMode="dropdown"
-                android:backgroundTint="#616161"
                 android:backgroundTintMode="screen"
                 android:theme="@style/AppTheme"
-                android:paddingBottom="20dip" />
+                android:paddingBottom="20dip"
+                android:background="@drawable/z_spinner_background" />
         </LinearLayout>
 
         <LinearLayout
@@ -136,10 +136,10 @@
                 android:layout_weight="1"
                 android:entries="@array/FaceValueStrings"
                 android:spinnerMode="dropdown"
-                android:backgroundTint="#616161"
                 android:backgroundTintMode="screen"
                 android:theme="@style/AppTheme"
-                android:paddingBottom="20dip" />
+                android:paddingBottom="20dip"
+                android:background="@drawable/z_spinner_background" />
 
             <Spinner
                 android:layout_width="wrap_content"
@@ -148,10 +148,10 @@
                 android:layout_weight="1"
                 android:entries="@array/SuitStrings"
                 android:spinnerMode="dropdown"
-                android:backgroundTint="#616161"
                 android:backgroundTintMode="screen"
                 android:theme="@style/AppTheme"
-                android:paddingBottom="20dip" />
+                android:paddingBottom="20dip"
+                android:background="@drawable/z_spinner_background" />
         </LinearLayout>
     </LinearLayout>
 
@@ -181,10 +181,10 @@
             android:layout_weight="1"
             android:entries="@array/FaceValueStrings"
             android:spinnerMode="dropdown"
-            android:backgroundTint="#616161"
             android:backgroundTintMode="screen"
             android:theme="@style/AppTheme"
-            android:paddingBottom="20dip" />
+            android:paddingBottom="20dip"
+            android:background="@drawable/z_spinner_background" />
 
         <Spinner
             android:layout_width="wrap_content"
@@ -193,10 +193,10 @@
             android:layout_weight="1"
             android:entries="@array/SuitStrings"
             android:spinnerMode="dropdown"
-            android:backgroundTint="#616161"
             android:backgroundTintMode="screen"
             android:theme="@style/AppTheme"
-            android:paddingBottom="20dip" />
+            android:paddingBottom="20dip"
+            android:background="@drawable/z_spinner_background" />
     </LinearLayout>
 
     <Button
