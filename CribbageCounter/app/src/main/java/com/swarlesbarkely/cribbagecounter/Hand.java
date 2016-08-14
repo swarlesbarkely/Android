@@ -125,6 +125,7 @@ public class Hand {
         int index;
         int currentRun;
         int points = 0;
+        int nextFaceValue;
 
         // Make a temp copy of our cards
         for (index = 0; index < NUMBER_OF_CARDS_IN_HAND; ++index) {
@@ -142,28 +143,29 @@ public class Hand {
             // Don't worry, we'll break out when appropriate
             while (startingCard + index < NUMBER_OF_CARDS_IN_HAND) {
 
+                nextFaceValue = tempCards [startingCard + index].GetFaceValue();
+
                 // See if a potential run could start
-                if (tempCards [startingCard].GetFaceValue() + currentRun ==
-                    tempCards [startingCard + index].GetFaceValue()) {
+                if (nextFaceValue == (tempCards [startingCard].GetFaceValue() + currentRun)) {
 
                     ++currentRun;
                     ++index;
                 }
 
-                // Check for double / triple runs
-                else if (tempCards [startingCard + currentRun - 1].GetFaceValue() ==
-                         tempCards [startingCard + index].GetFaceValue()) {
+                // Check for simple double / triple runs
+                else if (nextFaceValue == tempCards [startingCard + currentRun - 1].GetFaceValue()) {
 
                     ++multiplier;
                     ++index;
                 }
 
-                // Can't remember what this is here for... Probably necessary though
-                else {
-                    if (tempCards [startingCard + index] == tempCards [startingCard + index - 1]) {
-                        multiplier *= 2;
-                    }
+                // Check for double double runs
+                else if (nextFaceValue == tempCards [startingCard + index - 1].GetFaceValue()) {
+                    multiplier *= 2;
+                    ++index;
+                }
 
+                else {
                     break;
                 }
             }
